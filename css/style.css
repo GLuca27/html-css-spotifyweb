@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    position: fixed;
+    right: 0;
+    left: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+aside{
+    width: 300px;
+    background-color: black;
+}
+
+main{
+    width: calc(100% - 300px);
+    overflow-y: auto;
+    background-color: #141922;
+}
+
+.page-container{
+    display: flex;
+    height: calc(100% - 80px);
+}
+
+footer{
+    height: 80px;
+    bottom: 0;
+    background-color: #282828;
+}
