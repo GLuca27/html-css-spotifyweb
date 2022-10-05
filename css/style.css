@@ -16,10 +16,119 @@ header{
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+/*------------
+ASIDE
+------------*/
+
 aside{
     width: 300px;
     background-color: black;
 }
+
+.logo{
+    width: 170px;
+    height: 60px;
+    margin: 10px 20px;
+}
+
+.sezioni{
+    margin: 10px 20px;
+}
+
+.caselle{
+    height: 35px;
+    width: 35px;
+    filter: invert(50%);
+}
+
+.caselle:hover{
+    filter: invert(0%);
+}
+
+strong{
+    margin-left: 7px;
+}
+
+ul{
+    list-style-type: none;
+    color: gray;
+}
+
+li{
+    margin: 10px 0px;
+}
+
+li:hover{
+    color: #fff;
+}
+
+.page-container2{
+    margin-top: 20px;
+}
+
+h2{
+    color: #fff;
+    font-size: 15px;
+    margin: 12px 0px;
+}
+
+.quadrato{
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+
+.fa-sharp.fa-solid.fa-plus{
+    margin-top: 7px;
+    font-size: 25px;
+}
+
+.strong-nav2{
+    margin: 0px;
+}
+
+.aside-footer{
+    margin-top: 55px;
+}
+
+.box-asidefoot{
+    display: flex;
+    align-items: center;
+}
+
+.download{
+    height: 20px;
+    width: 20px;
+    filter: invert(50%);
+}
+
+p{
+    color: gray;
+    margin: 0px 10px;
+}
+
+hr{
+    margin: 10px 0px;
+    color: gray;
+}
+
+.user{
+    background-color: gray;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.strong-user{
+    color: #fff;
+    font-size: 15px;
+    margin-left: 13px;
+}
+
+/*------------
+MAIN
+------------*/
 
 main{
     width: calc(100% - 300px);
@@ -32,8 +141,165 @@ main{
     height: calc(100% - 80px);
 }
 
+/*------------
+FOOTER
+------------*/
+
 footer{
+    position: fixed;
     height: 80px;
     bottom: 0;
     background-color: #282828;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box1-footer{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin-left: 15px;
+}
+
+.sinister{
+    height: 50px;
+    width: 50px;
+}
+
+.info-sinister{
+    margin-left: 10px;
+}
+
+h5{
+    color: #fff;
+}
+
+small{
+    color: gray;
+}
+
+.strong-small{
+    margin: 0;
+}
+
+.icon-sinister{
+    margin-left: 75px;
+}
+
+.fa-regular.fa-heart{
+    color: gray;
+    margin-right: 10px;
+}
+
+.fa-regular.fa-folder{
+    color: gray;
+}
+
+.box2-footer{
+    height: 80px;
+    width: 500px;
+    
+}
+
+.icon-song{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-solid.fa-repeat{
+    color: #fff;
+    font-size: 20px;
+}
+
+.fa-sharp.fa-solid.fa-arrow-left{
+    color: #fff;
+    font-size: 20px;
+    margin: 0px 20px;
+}
+
+.fa-regular.fa-circle-play{
+    color: #fff;
+    font-size: 30px;
+    margin: 0px 10px;
+}
+
+.fa-sharp.fa-solid.fa-arrow-right{
+    color: #fff;
+    font-size: 20px;
+    margin: 0px 20px;
+}
+
+.fa-solid.fa-arrow-rotate-right{
+    color: #fff;
+    font-size: 20px;
+}
+
+.moment-song{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.minuti{
+    color: #fff;
+    font-size: 11px;
+}
+
+.linea1{
+    width: 300px;
+    height: 5px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+    background-color: gray;
+}
+
+.linea2{
+    width: 50px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.icon-right{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.fa-solid.fa-bars{
+    color: #fff;
+    margin: 0px 20px;
+}
+
+.fa-sharp.fa-solid.fa-computer{
+    color: #fff;
+}
+
+.fa-solid.fa-volume-high{
+    color: #fff;
+    margin: 0px 20px;
+
+}
+
+.linea3{
+    width: 130px;
+    height: 5px;
+    border-radius: 10px;
+    margin-right: 20px;
+    background-color: gray;
+}
+
+.linea4{
+    width: 30px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #fff;
 }

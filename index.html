@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lato&family=Montserrat&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
     <!--/Font-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>My Spotify</title>
 </head>
 <body>
@@ -18,12 +19,79 @@
     </header>
 
     <div class="page-container">
-        <aside></aside>
+        <aside>
+            <img class="logo" src="img/logo.svg" alt="">
+            <div class="sezioni">
+            <nav>
+                <ul>
+                    <li><img class="caselle" src="img/home.svg" alt=""><strong>Home</strong></li>
+                    <li><img class="caselle" src="img/search.svg" alt=""><strong>Cerca</strong></li>
+                    <li><img  class="caselle" src="img/libreria.svg" alt=""><strong>Libreria</strong></li>
+                </ul>                  
+            </nav>
+            
+            <div class="page-container2">
+                <h2>PLAYLIST</h2>
+                <div class="quadrato"><i class="fa-sharp fa-solid fa-plus"></i></div>
+            </div>
+            <nav>
+                <ul>
+                    <li><strong class="strong-nav2">Nome Playlist</strong></li>
+                    <li><strong class="strong-nav2">Nome Playlist</strong></li>
+                    <li><strong class="strong-nav2">Nome Playlist</strong></li>
+                    <li><strong class="strong-nav2">Nome Playlist</strong></li>
+                </ul>
+            </nav>
+            <div class="aside-footer">
+                <div class="box-asidefoot">
+                    <img class="download" src="img/download.svg" alt="">
+                    <p>Installa app</p>
+                </div>
+              <hr>
+              <div class="box-asidefoot">
+                <img class="user" src="img/profile.svg" alt="">
+                <strong class="strong-user">John Doe</strong>
+            </div>
+            </div>
+        </div>
+        </aside>
         <main></main>
     </div>
 
     <footer>
-
+      <div class="footer-container">
+        <div class="box1-footer">
+            <img  class="sinister" src="img/sinister.jpeg" alt="">
+            <div class="info-sinister">
+                <h5>Sinister</h5>
+                <small><strong class="strong-small">Brano Nome</strong></small>
+            </div>
+            <div class="icon-sinister">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-folder"></i>
+            </div>
+        </div>      
+        <div class="box2-footer">
+            <div class="icon-song">
+                <i class="fa-solid fa-repeat"></i>
+                <i class="fa-sharp fa-solid fa-arrow-left"></i>
+                <i class="fa-regular fa-circle-play"></i>
+                <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                <i class="fa-solid fa-arrow-rotate-right"></i>
+            </div>
+            <div class="moment-song">
+              <small><strong class="minuti">0:25</strong></small>
+              <div class="linea1"><div class="linea2"></div></div>
+              <small><strong class="minuti">4:35</strong></small>
+            </div>
+        </div>
+        <div class="icon-right">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-sharp fa-solid fa-computer"></i>
+            <i class="fa-solid fa-volume-high"></i>
+            <div class="linea3"><div class="linea4"></div></div>
+        </div>
+      </div>
     </footer>
 </body>
 </html>
