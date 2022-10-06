@@ -58,6 +58,11 @@ li{
     margin: 10px 0px;
 }
 
+.sezioni nav ul li{
+    display: flex;
+    align-items: center;
+}
+
 li:hover{
     color: #fff;
 }
@@ -87,6 +92,7 @@ h2{
 a{
     color: gray;
     margin-left: 10px;
+    text-decoration: none;
 }
 
 a:hover{
@@ -98,8 +104,9 @@ a:hover{
     font-size: 25px;
 }
 
-.strong-nav2{
-    margin: 0px;
+.crea-playlist li a{
+    text-decoration: none;
+    margin: 0;
 }
 
 .aside-footer{
@@ -172,6 +179,11 @@ main{
     border: 1px solid #fff;
 }
 
+.upgrade button a{
+    color: #fff;
+    text-decoration: none;
+}
+
 .ul-main{
     list-style-type: none;
     display: flex;
@@ -181,6 +193,33 @@ main{
 
 .ul-main li{
     margin: 10px 10px;
+}
+
+.riga1{
+    display: flex;
+    margin: 20px;
+}
+
+.h2-main{
+    color: #fff;
+    margin: 0px 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+h3{
+    color: #fff;
+    margin: 5px 0px;
+    text-align: center;
+    font-size: 14px;
+}
+.container-riga1 div small{
+    
+}
+
+.container-riga1 div img{
+    height: 20vh;
+    width: 20vh;
 }
 
 /*------------
