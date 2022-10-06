@@ -72,11 +72,25 @@ h2{
     margin: 12px 0px;
 }
 
+.quadrato-container{
+    display: flex; 
+    align-items: center;
+}
+
 .quadrato{
     background-color: gray;
     height: 40px;
     width: 40px;
     text-align: center;
+}
+
+a{
+    color: gray;
+    margin-left: 10px;
+}
+
+a:hover{
+    color: #fff;
 }
 
 .fa-sharp.fa-solid.fa-plus{
@@ -141,14 +155,40 @@ main{
     height: calc(100% - 80px);
 }
 
+.upgrade{
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.upgrade button{
+    height: 6vh;
+    width: 35vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 20px;
+    border: 1px solid #fff;
+}
+
+.ul-main{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-main li{
+    margin: 10px 10px;
+}
+
 /*------------
 FOOTER
 ------------*/
 
 footer{
-    position: fixed;
     height: 80px;
-    bottom: 0;
     background-color: #282828;
 }
 
