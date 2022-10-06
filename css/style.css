@@ -195,9 +195,9 @@ main{
     margin: 10px 10px;
 }
 
-.riga1{
+.riga{
     display: flex;
-    margin: 20px;
+    margin: 10px;
 }
 
 .h2-main{
@@ -213,13 +213,33 @@ h3{
     text-align: center;
     font-size: 14px;
 }
-.container-riga1 div small{
-    
+
+h3 a{
+    color: #fff;
 }
 
-.container-riga1 div img{
+.riga div small{
+    display: block;
+    text-align: center;
+}
+
+.box-song small{
+      color: gray;
+}
+
+.riga div img{
     height: 20vh;
     width: 20vh;
+}
+
+.box-song{
+    margin: 10px 10px;
+    width: 20vh;
+}
+
+.small-main{
+    display: block;
+    margin: 10px 20px;
 }
 
 /*------------
